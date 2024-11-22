@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Integral-cf,Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Integral CF Regular";
+  src: url("https://cdn.discordapp.com/attachments/742574117735235644/1127126313501732944/f1fcc5aed1e20fc0cdb9f8a7573625bd.ttf") format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
